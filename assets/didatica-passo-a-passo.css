@@ -1,0 +1,35 @@
+.solution-copy,
+.feedback-copy,
+.error-explanation {
+  white-space: pre-line;
+}
+
+.solution-copy {
+  display: block;
+  padding: 20px 22px;
+  border: 1px solid rgba(139, 47, 47, 0.18);
+  border-left: 4px solid #8b2f2f;
+  border-radius: 12px;
+  background: linear-gradient(135deg, rgba(139, 47, 47, 0.045), rgba(255, 253, 248, 0.72));
+  line-height: 1.9;
+}
+
+.solution-copy .math-inline {
+  white-space: normal;
+}
+
+.feedback-copy,
+.error-explanation {
+  line-height: 1.72;
+}
+
+.solution-panel > summary {
+  font-weight: 750;
+}
+
+@media (max-width: 640px) {
+  .solution-copy {
+    padding: 16px;
+    line-height: 1.8;
+  }
+}
